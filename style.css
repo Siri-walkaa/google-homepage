@@ -1,0 +1,95 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 100%;
+}
+
+/*Header*/
+header{
+  height:2em;
+}
+.menu_bar {
+  margin:0px;
+  padding-top:5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  border-bottom: 2px solid rgb(223, 227, 233);
+}
+.menu_bar li{
+  display: inline-block;
+  padding-right: 20px;
+}
+a:visited{
+  color:blue;
+}
+
+.right {
+  float:right;
+}
+/*Body*/
+.content {
+  text-align: center;
+  margin-top: 15vh;
+}
+.content form  {
+  padding: 5px;
+  position:relative;
+}
+.content form input {
+  width : 500px;
+}
+.content button {
+  margin:0px;
+  padding:0px;
+}
+.side_links {
+  padding-left: 10px;
+  display:inline-block;
+  list-style: none;
+  position: absolute;
+  top: -20px;
+  text-align: left;
+}
+.bottom_links {
+  list-style: none;
+  padding-top: 60px;
+}
+.bottom_links li {
+  padding-left: 10px;
+  display:inline;
+}
+/*Footer*/
+footer{
+  height:2em;
+  position:absolute;
+  width: 100%;
+  bottom: 0;
+  background:rgb(223, 227, 233);
+}
+.bottom_bar {
+  margin:0px;
+  padding-top:5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+}
+.bottom_bar li{
+  display: inline;
+  padding-right: 20px;
+}
+.bottom_bar li a{
+  text-decoration: none;
+  color:#000;
+}
+
+.bottom_bar li a:hover{
+  color: rgb(0, 0, 255);
+}
+
+.bright {
+  float:right;
+  padding-left: 20px
+}
